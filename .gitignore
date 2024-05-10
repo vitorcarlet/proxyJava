@@ -1,0 +1,38 @@
+# Arquivos temporários gerados pelo IDE
+.idea/
+
+# Arquivos de compilação
+bin/
+target/
+
+# Arquivos gerados pelo Maven
+log/
+logs/
+*.log
+*.jar
+
+# Arquivos de configuração específicos do sistema
+*.iml
+*.ipr
+*.iws
+
+# Cache de arquivos do Eclipse
+.metadata/
+*.classpath
+*.project
+.settings/
+
+# Arquivos de build do Gradle
+build/
+.gradle/
+
+# Arquivos de dependência do Maven
+target/
+lib/
+
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do Visual Studio Code
+.vscode/

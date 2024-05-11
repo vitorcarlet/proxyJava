@@ -37,6 +37,8 @@ public class ThirdPartyYouTubeClass implements ThirdPartyYouTubeLib {
         }
     }
 
+    // -----------------------------------------------------------------------
+
     private void connectToServer(String server) {
         System.out.print("Connecting to " + server + "... ");
         experienceNetworkLatency();

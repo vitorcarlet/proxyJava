@@ -8,9 +8,9 @@ public class Main {
             YouTubeDownloader naiveDownloader = new YouTubeDownloader(new ThirdPartyYouTubeClass());
             YouTubeDownloader smartDownloader = new YouTubeDownloader(new YouTubeCacheProxy());
 
-            long naive = test(naiveDownloader);
+            //long naive = test(naiveDownloader);
             long smart = test(smartDownloader);
-            System.out.print("Time saved by caching proxy: " + (naive - smart) + "ms");
+            //System.out.print("Time saved by caching proxy: " + (naive - smart) + "ms");
             long smart2 = test(smartDownloader);
             System.out.print("Time saved by caching proxy: " + (smart - smart2) + "ms");
         }
